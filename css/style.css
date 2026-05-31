@@ -265,20 +265,20 @@ main {
 
 .hero {
     width: min(1120px, calc(100% - 48px));
-    min-height: 590px;
+    min-height: 500px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: minmax(0, 1.08fr) minmax(340px, 0.92fr);
-    gap: 48px;
+    gap: 40px;
     align-items: center;
-    padding: 74px 0 62px;
+    padding: 50px 0 42px;
 }
 
 .hero h1 {
     max-width: 780px;
-    margin: 0 0 20px;
+    margin: 0 0 16px;
     color: var(--ink);
-    font-size: 3.65rem;
+    font-size: 3.28rem;
     line-height: 1.05;
     font-weight: 800;
     letter-spacing: 0;
@@ -289,8 +289,8 @@ main {
 }
 
 .hero-copy .lead {
-    margin-bottom: 28px;
-    font-size: 1.08rem;
+    margin-bottom: 24px;
+    font-size: 1.02rem;
 }
 
 .hero-visual {
@@ -524,6 +524,11 @@ main {
     font-weight: 800;
 }
 
+.pub-empty {
+    margin: 34px 0 0;
+    color: var(--muted);
+}
+
 .join-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -601,12 +606,12 @@ main {
     .hero {
         min-height: 0;
         grid-template-columns: 1fr;
-        gap: 32px;
-        padding: 50px 0;
+        gap: 28px;
+        padding: 38px 0;
     }
 
     .hero h1 {
-        font-size: 2.9rem;
+        font-size: 2.56rem;
     }
 
     .cards-grid,

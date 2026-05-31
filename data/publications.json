@@ -1,0 +1,117 @@
+[
+  {
+    "year": "2026",
+    "title": "Noisy but Valid: Robust Statistical Evaluation of LLMs with Imperfect Judges",
+    "authors": ["M. Shen", "Chen Feng", "A. Balashankar", "C. Gerner-Beuerle", "M. Rodrigues"],
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "note": "Co-first author",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=hEhxreaLdU"
+      }
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "Deconstructing the Failure of Ideal Noise Correction: A Three-Pillar Diagnosis",
+    "authors": ["Chen Feng", "Z. Zhi", "Z. Huang", "J. Ge", "L. Xiao", "N. Sebe", "G. Tzimiropoulos", "I. Patras"],
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+    "note": "First author",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.12997"
+      }
+    ]
+  },
+  {
+    "year": "2026",
+    "title": "Beyond Training for Cultural Awareness: The Role of Dataset Linguistic Structure in Large Language Models",
+    "authors": ["R. I. Masoud", "Chen Feng", "S. Asano", "S. Alshahrani", "P. C. Treleaven", "M. R. D. Rodrigues"],
+    "venue": "ICLR 2026 Workshop on Navigating and Addressing Data Problems for Foundation Models",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=5Tbs4WQw7j"
+      }
+    ]
+  },
+  {
+    "year": "2025",
+    "title": "TFAR: A Training-Free Framework for Autonomous Reliable Reasoning in Visual Question Answering",
+    "authors": ["Z. Zhi", "Chen Feng", "A. Daneshmend", "M. Orlu", "A. Demosthenous", "L. Yin", "D. Li", "Z. Liu", "M. R. D. Rodrigues"],
+    "venue": "Transactions on Machine Learning Research (TMLR), 2025",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=cBAKeZN3jy"
+      }
+    ]
+  },
+  {
+    "year": "2025",
+    "title": "PROSAC: Provably Safe Certification for Machine Learning Models under Adversarial Attacks",
+    "authors": ["Chen Feng", "Z. Liu", "Z. Zhi", "I. Bogunovic", "C. Gerner-Beuerle", "M. Rodrigues"],
+    "venue": "AAAI Conference on Artificial Intelligence (AAAI), 2025, Oral",
+    "note": "First author",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1609/aaai.v39i3.32300"
+      }
+    ]
+  },
+  {
+    "year": "2025",
+    "title": "Unveiling Open-Set Noise: Theoretical Insights into Label Noise",
+    "authors": ["Chen Feng", "N. Sebe", "G. Tzimiropoulos", "M. R. D. Rodrigues", "I. Patras"],
+    "venue": "ACM International Conference on Multimedia (ACM MM), 2025",
+    "note": "First author",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1145/3746027.3755040"
+      }
+    ]
+  },
+  {
+    "year": "2024 and Earlier",
+    "title": "NoiseBox: Towards More Efficient and Effective Learning with Noisy Labels",
+    "authors": ["Chen Feng", "G. Tzimiropoulos", "I. Patras"],
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology, 2024",
+    "note": "First author",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TCSVT.2024.3426994"
+      }
+    ]
+  },
+  {
+    "year": "2024 and Earlier",
+    "title": "CLIPCleaner: Cleaning Noisy Labels with CLIP",
+    "authors": ["Chen Feng", "G. Tzimiropoulos", "I. Patras"],
+    "venue": "ACM International Conference on Multimedia (ACM MM), 2024",
+    "note": "First author",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1145/3664647.3680664"
+      }
+    ]
+  },
+  {
+    "year": "2024 and Earlier",
+    "title": "MaskCon: Masked Contrastive Learning for Coarse-Labelled Dataset",
+    "authors": ["Chen Feng", "I. Patras"],
+    "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023",
+    "note": "First author",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/CVPR52729.2023.01907"
+      }
+    ]
+  }
+]
