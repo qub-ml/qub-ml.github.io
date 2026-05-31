@@ -327,6 +327,36 @@ main {
     font-weight: 800;
 }
 
+.focus-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.focus-item {
+    padding: 0 0 0 18px;
+    border-left: 4px solid var(--qub-red);
+}
+
+.focus-item:nth-child(2) {
+    border-left-color: var(--blue);
+}
+
+.focus-item:nth-child(3) {
+    border-left-color: var(--green);
+}
+
+.focus-item h3 {
+    margin: 0 0 8px;
+    font-size: 1.08rem;
+    line-height: 1.25;
+}
+
+.focus-item p {
+    margin: 0;
+    color: var(--muted);
+}
+
 .cards-grid,
 .research-grid,
 .member-grid {
@@ -615,6 +645,7 @@ main {
     }
 
     .cards-grid,
+    .focus-grid,
     .research-grid,
     .member-grid,
     .join-grid {
@@ -737,5 +768,9 @@ main {
     .research-card,
     .member-card {
         padding: 20px;
+    }
+
+    .focus-item {
+        padding-left: 14px;
     }
 }
