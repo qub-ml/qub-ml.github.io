@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research themes of QUB ML Lab: learning with imperfect supervision, AI safety, robust evaluation, and foundation models.">
+    <title>Research | QUB ML Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">QUB <span>ML Lab</span><small>since 2025.09</small></a>
+            <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="site-navigation" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="research.html" aria-current="page">Research</a>
+                <a href="publications.html">Publications</a>
+                <a href="team.html">Team</a>
+                <a href="join.html">Openings</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h1 class="page-title">Research Areas</h1>
+            <p class="lead">Our work is motivated by a simple problem: high-performing AI systems are often trained and evaluated with imperfect information. We develop methods that make learning, evaluation, and reasoning more reliable in those conditions.</p>
+
+            <div class="research-grid">
+                <article class="research-card">
+                    <h2>Learning with Imperfect Supervision</h2>
+                    <p>We design algorithms for noisy labels, coarse labels, open-set noise, and other forms of imperfect supervision in real-world visual datasets.</p>
+                    <div class="tag-list">
+                        <span>Noisy labels</span>
+                        <span>Open-set noise</span>
+                        <span>Representation learning</span>
+                    </div>
+                </article>
+
+                <article class="research-card">
+                    <h2>AI Safety and Robust Evaluation</h2>
+                    <p>We study certification, adversarial robustness, and statistically reliable evaluation for models and LLM-based systems under imperfect judges.</p>
+                    <div class="tag-list">
+                        <span>Model certification</span>
+                        <span>Adversarial attacks</span>
+                        <span>LLM evaluation</span>
+                    </div>
+                </article>
+
+                <article class="research-card">
+                    <h2>Foundation Models for Visual and Multimodal Data</h2>
+                    <p>We adapt foundation models such as CLIP-style representations to downstream settings where data quality, annotation quality, or domain fit is limited.</p>
+                    <div class="tag-list">
+                        <span>Computer vision</span>
+                        <span>Multimodal learning</span>
+                        <span>Healthcare AI</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section compact">
+            <h2 class="page-title">Representative Questions</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>When labels are unreliable, what can still be learned?</h3>
+                    <p>We analyze failure modes of idealized noise correction and build practical robust learning methods for noisy supervision.</p>
+                </article>
+                <article class="card">
+                    <h3>How should we evaluate models when the evaluator is imperfect?</h3>
+                    <p>We work on robust statistical evaluation protocols for LLMs and foundation models when automatic or human judges are noisy.</p>
+                </article>
+                <article class="card">
+                    <h3>Can safety claims be made precise?</h3>
+                    <p>We develop certification methods that provide formal or statistical guarantees under adversarial perturbations and distribution shifts.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 QUB ML Lab. Directed by Dr. Chen Feng.</p>
+    </footer>
+    <script src="js/site.js"></script>
+</body>
+</html>
