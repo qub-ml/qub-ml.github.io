@@ -2,7 +2,7 @@
   {
     "year": "2026",
     "title": "Noisy but Valid: Robust Statistical Evaluation of LLMs with Imperfect Judges",
-    "authors": ["M. Shen", "Chen Feng", "A. Balashankar", "C. Gerner-Beuerle", "M. Rodrigues"],
+    "authors": ["Chen Feng", "M. Shen",  "A. Balashankar", "C. Gerner-Beuerle", "M. Rodrigues"],
     "venue": "International Conference on Learning Representations (ICLR), 2026",
     "note": "Co-first author",
     "links": [

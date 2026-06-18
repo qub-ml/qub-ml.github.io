@@ -391,6 +391,16 @@ main {
     font-size: 1.16rem;
 }
 
+.card h3 a,
+.member-card h3 a {
+    color: inherit;
+}
+
+.card h3 a:hover,
+.member-card h3 a:hover {
+    color: var(--qub-red);
+}
+
 .card p,
 .research-card p,
 .join-box p,
@@ -470,10 +480,6 @@ main {
     background: var(--soft);
 }
 
-.member-card p + p {
-    margin-top: 4px;
-}
-
 .member-status {
     margin-bottom: 8px;
     color: var(--qub-red);
@@ -481,6 +487,31 @@ main {
     font-weight: 800;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.member-details {
+    display: grid;
+    gap: 10px;
+    margin: 16px 0 0;
+}
+
+.member-details div {
+    display: grid;
+    gap: 2px;
+}
+
+.member-details dt {
+    color: var(--ink);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.member-details dd {
+    margin: 0;
+    color: var(--muted);
 }
 
 .link-list {
